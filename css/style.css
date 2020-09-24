@@ -256,7 +256,7 @@ header {
 }
 
 @media (max-width: 576px) {
-    body {
+    html {
         overflow-x: hidden;
     }
     .wrapper {
@@ -315,12 +315,12 @@ header {
 }
 
 @media (max-width: 425px) {
-    html {
+    /*html {
         overflow-x: hidden;
     }
     body {
         overflow-x: hidden;
-    }
+    }*/
     .wrapper {
         flex-direction: column;
         flex-wrap: wrap;
